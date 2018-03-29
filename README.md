@@ -1,5 +1,7 @@
 # wifi-txpower-unlocker
 
+####Sapphiress: "I'm only working on the Kali .sh file."
+
 A bash script that generates a modified regulatory.bin from [Central Regulatory Domain Agent](https://wireless.wiki.kernel.org/en/developers/regulatory/crda) and [Wireles Regulatory Database](https://wireless.wiki.kernel.org/en/developers/regulatory/wireless-regdb) sources and patches the kernel. This unlocks the maximum WiFi TX power (on 2.4 Ghz) of the region BO according to the dBm value you specify in the script. 
 
 In the future I plan to modify the script to allow users to choose a specific region and a frequency range.
